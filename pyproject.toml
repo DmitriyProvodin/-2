@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ecommerce-project"
+version = "0.1.0"
+description = "E-commerce OOP implementation for basic category and product management"
+authors = ["Your Name <you@example.com>"]
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
